@@ -41,4 +41,10 @@ public class Board {
 		pieces[position.getRow()][position.getColumn()] = piece;
 		piece.position = position;
 	}
+	
+	private boolean positionExistes(int row, int column) 
+	
+	public boolean positionExistes(Position position) {
+		
+	}
 }
